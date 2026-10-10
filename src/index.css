@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:
+		Segoe UI,
+		Helvetica,
+		Arial,
+		sans-serif;
+	background: #d1d7db;
+	height: 100vh;
+	height: 100dvh;
+}
+
+#root {
+	height: 100%;
+}

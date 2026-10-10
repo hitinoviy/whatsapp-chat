@@ -1,0 +1,39 @@
+.bubble {
+	max-width: 65%;
+	padding: 6px 8px 8px 10px;
+	border-radius: 8px;
+	box-shadow: 0 1px 0.5px rgba(11, 20, 26, 0.13);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	gap: 8px;
+}
+
+.outgoing {
+	align-self: flex-end;
+	background: #d9fdd3;
+}
+
+.incoming {
+	align-self: flex-start;
+	background: #fff;
+}
+
+.text {
+	font-size: 14px;
+	color: #111b21;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.time {
+	margin-left: auto;
+	font-size: 11px;
+	color: #667781;
+}
+
+@media (max-width: 768px) {
+	.bubble {
+		max-width: 85%;
+	}
+}

@@ -1,0 +1,54 @@
+.form {
+	background: #f0f2f5;
+	padding: 10px 16px;
+}
+
+.row {
+	display: flex;
+	gap: 8px;
+}
+
+.input {
+	flex: 1;
+	min-width: 0;
+	padding: 10px 12px;
+	border: none;
+	border-radius: 8px;
+	font-size: 15px;
+	outline: none;
+}
+
+.send {
+	padding: 0 16px;
+	border: none;
+	border-radius: 8px;
+	background: #00a884;
+	color: #fff;
+	cursor: pointer;
+}
+
+.send:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.error {
+	color: #d93025;
+	font-size: 13px;
+	margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+	.form {
+		padding: 8px;
+		padding-bottom: max(8px, env(safe-area-inset-bottom));
+	}
+
+	.input {
+		font-size: 16px;
+	}
+
+	.send {
+		padding: 0 12px;
+	}
+}
