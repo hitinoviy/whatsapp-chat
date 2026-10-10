@@ -2,7 +2,7 @@
 
 Веб-интерфейс для отправки и получения текстовых сообщений WhatsApp через сервис [GREEN-API](https://green-api.com).
 
-**Демо:** <ссылка на Vercel>
+**Демо:** <[ссылка на Vercel](https://whatsapp-chat-kred.vercel.app/)>
 
 ## Возможности
 
